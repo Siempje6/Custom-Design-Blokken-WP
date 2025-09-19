@@ -6,14 +6,14 @@ import './editor.scss';
 registerBlockType('designblokkenwp/row', {
     edit: () => {
         return (
-            <div className='db-row'>
+            <div className='db-inner-row'>
                 <InnerBlocks />
             </div>
         );
     },
     save: () => {
         return (
-            <div className='db-row'>
+            <div className='db-inner-row'>
                 <InnerBlocks.Content />
             </div>
         );

@@ -1,0 +1,15 @@
+{
+  "apiVersion": 2,
+  "name": "designblokkenwp/row",
+  "title": "Row / Section",
+  "category": "Layout",
+  "icon": "columns",
+  "descriptiom": "Een sectie die andere blokken kan bevatten",
+  "supports": {
+    "html": false
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:/editor.scss",
+  "style": "file:./style.scss",
+  "example": {}
+}
